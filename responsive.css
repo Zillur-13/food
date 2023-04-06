@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 620px) {
+    .banner-content h2 {
+        font-size: 26px;
+        text-align: center;
+        margin-top: -42px;
+    }
+    .btn-customs {
+        margin: auto;
+        display: block; 
+    }
+    .card-img img{
+        margin-left: 25px;
+    }
+    .card-content strong {
+        letter-spacing: 0px;
+        font-size: 20px;
+    }
+    .card-content p{
+        margin-bottom: 2rem;
+        font-size: 16px;
+    }
+    .btn-customs {
+        width: 148px;
+        font-size: 15px;
+    }
+/* vagitable part */
+
+.vagitable-content h2 {
+	font-size: 20px;
+	margin-top: -58px;
+}
+.vagitable-img-content h5 {
+	text-align: center;
+	margin-top: 23px;
+	padding: 5px 0px;
+}
+p {
+	text-align: center;
+}
+.vagitable-img img{
+   margin-left: 10px;
+}
+
+/* second card section */
+
+.explore-content h2 {
+	margin-top: -37px;
+}
+.explore-img img:hover{
+    transform: none;
+}
+.background-content h2 {
+	font-size: 19px;
+	top: 5%;
+	margin-left: 25%;
+}
+.background-content p {
+	margin-top: -64px;
+    margin-left: 5%;
+}
+.contact-content h2 {
+	font-size: 32px;
+}
+.contact-content strong {
+	font-size: 13px;
+}
+.contact-form {
+	margin-top: 50px;
+}
+.lomba{
+    width: 100% !important;
+    height: auto;
+}
+
+}
